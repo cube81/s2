@@ -25,4 +25,13 @@
 		  }
 		}
 	  }
+	  "firefox": {
+        "versions": {
+            "57.0": {
+                "image": "selenoid/firefox:88.0",
+                "port": "4444",
+                "path": "/wd/hub"
+            }
+        }
+    }
   }
