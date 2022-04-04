@@ -1,4 +1,15 @@
 {
+	 "MicrosoftEdge": {
+        "default": "edge-99.0",
+        "versions": {
+            "edge-99.0": {
+                "image": "browsers/edge:99.0",
+                "port": "4444",
+                "path": "/wd/hub"
+            }
+        }
+    }
+    
 	"chrome": {
 	  "default": "66.0",
 	  "versions": {
